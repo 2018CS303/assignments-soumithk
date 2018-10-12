@@ -18,7 +18,7 @@ Start the driver and run the tests
 browser = webdriver.Chrome(options = options)
 
 browser.get("http://www.google.com")
-assert Google in browser.title
+assert 'Google' in browser.title
 
 browser.close()
 ```
